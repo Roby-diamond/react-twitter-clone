@@ -3,7 +3,7 @@ import SidebarOption from '../SidebarOption/SidebarOption';
 // MUI ICONS
 import TwitterIcon from '@mui/icons-material/Twitter';
 import HomeIcon from '@mui/icons-material/Home';
-import SearchIcon from '@mui/icons-material/Search';
+import TagIcon from '@mui/icons-material/Tag';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import EmailIcon from '@mui/icons-material/Email';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
@@ -15,9 +15,9 @@ import { Button } from '@material-ui/core'
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <TwitterIcon />
+        <TwitterIcon className='sidebar__twitterIcon'/>
         <SidebarOption active text='Home' Icon={HomeIcon}/>
-        <SidebarOption text='Explore' Icon={SearchIcon}/>
+        <SidebarOption text='Explore' Icon={TagIcon}/>
         <SidebarOption text='Notifications' Icon={NotificationsIcon}/>
         <SidebarOption text='Messages' Icon={EmailIcon}/>
         <SidebarOption text='Bookmarks' Icon={BookmarkIcon}/>
