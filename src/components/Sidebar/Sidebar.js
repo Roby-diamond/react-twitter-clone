@@ -10,12 +10,13 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import PersonIcon from '@mui/icons-material/Person';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import { Button } from '@material-ui/core'
 
 function Sidebar() {
   return (
     <div className='sidebar'>
         <TwitterIcon />
-        <SidebarOption text='Home' Icon={HomeIcon}/>
+        <SidebarOption active text='Home' Icon={HomeIcon}/>
         <SidebarOption text='Explore' Icon={SearchIcon}/>
         <SidebarOption text='Notifications' Icon={NotificationsIcon}/>
         <SidebarOption text='Messages' Icon={EmailIcon}/>
@@ -23,7 +24,7 @@ function Sidebar() {
         <SidebarOption text='Lists' Icon={ListAltIcon}/>
         <SidebarOption text='Profiles' Icon={PersonIcon}/>
         <SidebarOption text='More' Icon={MoreHorizIcon}/>
-        {/* button -> tweet */}
+        <Button variant='outlined' className='sidebar__tweet' fullWidth>Tweet</Button>
     </div>
   )
 }
