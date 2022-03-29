@@ -1,12 +1,13 @@
 import "./Main.css"
+import TweetBox from "../TweetBox/TweetBox"
 
 function Main() {
   return (
-    <div>
-        <div className="main">
+    <div className="main">
+        <div className="main__header">
             <h2>Home</h2>
         </div>
-        {/* header */}
+        <TweetBox />
         {/* tweets */}
         {/* post */}
         {/* post */}
