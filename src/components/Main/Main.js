@@ -1,5 +1,6 @@
 import "./Main.css"
 import TweetBox from "../TweetBox/TweetBox"
+import Post from "../Post/Post"
 
 function Main() {
   return (
@@ -8,17 +9,11 @@ function Main() {
             <h2>Home</h2>
         </div>
         <TweetBox />
-        {/* tweets */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
-        {/* post */}
+        
+        <Post />
+        <Post />
+        <Post />
+        <Post />
     </div>
   )
 }
