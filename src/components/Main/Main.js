@@ -6,10 +6,9 @@ function Main() {
   return (
     <div className="main">
         <div className="main__header">
-            <h2>Home</h2>
+            <h3>Home</h3>
         </div>
-        <TweetBox />
-        
+        <TweetBox /> 
         <Post />
         <Post />
         <Post />
